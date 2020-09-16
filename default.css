@@ -1060,7 +1060,7 @@ a:hover{
 }
 
 a{
-	color:  #1f7a1f;
+	color:  white;
 }
 
 .menu-item{
@@ -1082,9 +1082,6 @@ a{
        display:none;
      }
 }
-
-
-
 
 @media screen and (min-width: 900px) {
      .menu-item {
