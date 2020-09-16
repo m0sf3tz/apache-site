@@ -1047,6 +1047,7 @@ ul.contact li a.icon-rss:before
   display: flex;
   justify-content: space-between;
   background-color: black;
+  box-shadow: 1px 1px gray
 }
 
 a:visited, a:link, a:active
