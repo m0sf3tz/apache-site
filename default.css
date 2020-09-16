@@ -483,14 +483,14 @@ ul.contact li a.icon-rss:before
 	#banner-wrapper
 {
 	overflow: hidden;
-	padding: 3em 0em;
+	padding: 1em 0em;
 	background: #706d66;
 }
 
 #banner
 {
 	overflow: hidden;
-	padding: 0px 100px;
+	padding: 0px 20px;
 	color: rgba(255,255,255,.7);
 }
 
@@ -862,6 +862,20 @@ ul.contact li a.icon-rss:before
 
 
 
+.columnIndex {
+	float: center;
+	padding: 00px;
+  }
+  
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.columnIndex {
+	  width: 100%;
+	}
+ }
+
 
 
 
@@ -1015,6 +1029,7 @@ ul.contact li a.icon-rss:before
 	font-size: 30px;
 	max-width: 750px;
 	margin: auto;
+
 }
 
 .gird-item-border{
@@ -1050,7 +1065,7 @@ a{
 
 .menu-item{
 	/* font-size:2vw, 20px, 50px, 50px;    */
-  font-size:20px;
+  font-size:15px;
   text-decoration: none; 
   font-family: 'Source Sans Pro', sans-serif;
   padding: 5px;
@@ -1073,6 +1088,6 @@ a{
 
 @media screen and (min-width: 900px) {
      .menu-item {
-       font-size: 25px;
+       font-size: 20px;
      }
 }
